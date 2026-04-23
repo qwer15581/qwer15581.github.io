@@ -9,12 +9,18 @@
 body{background:#f7f8fa;color:#333}
 .header{background:#1a2b48;color:white;padding:2rem;text-align:center}
 .nav{background:white;padding:1rem;text-align:center;box-shadow:0 2px 5px #00000010}
-.nav a{margin:0 1rem;text-decoration:none;color:#333;font-weight:500}
+.nav a{margin:0 1rem;text-decoration:none;color:#333;font-weight:500;white-space:nowrap}
 .nav a:hover{color:#1a2b48}
-.banner{height:280px;background:#e8f0fe;display:flex;align-items:center;justify-content:center}
-.banner h2{font-size:2rem;color:#1a2b48}
+.banner{height:280px;background:#e8f0fe;display:flex;align-items:center;justify-content:center;padding:0 1rem}
+.banner h2{font-size:2rem;color:#1a2b48;text-align:center}
 .content{max-width:1000px;margin:3rem auto;padding:0 1rem}
 .footer{background:#1a2b48;color:white;text-align:center;padding:2rem}
+
+@media(max-width:768px){
+  .nav{padding:0.8rem 0.5rem}
+  .nav a{display:inline-block;margin:0.4rem 0.6rem;font-size:0.95rem}
+  .banner h2{font-size:1.5rem}
+}
 </style>
 </head>
 <body>
@@ -22,21 +28,23 @@ body{background:#f7f8fa;color:#333}
 <h1>恒昇留學商務（香港）有限公司</h1>
 </div>
 <div class="nav">
-<a href="index.html">主頁</a>
-<a href="about.html">關於我們</a>
-<a href="service.html">服務項目</a>
-<a href="case.html">成功個案</a>
-<a href="contact.html">聯絡我們</a>
+<a href="/index.html">主頁</a>
+<a href="/about.html">關於我們</a>
+<a href="/service.html">服務項目</a>
+<a href="/case.html">成功個案</a>
+<a href="/contact.html">聯絡我們</a>
 </div>
 <div class="banner">
-<h2>專業香港留學・簽證・海外升學服務</h2>
+<h2>專業香港身份規劃、留學教育、安家樂業、商務服務、財富管理、資產配置</h2>
 </div>
 <div class="content">
 <h3>歡迎光臨恒昇留學商務</h3>
-<p style="margin-top:1rem">我們專辦香港IANG簽證、香港中學申請、日本高度人才簽證、副學士升學等一站式服務。</p>
+<p style="margin-top:1rem;line-height:1.8">
+我們專辦香港簽證、香港中、小學、副學士、碩士申請等一站式服務。
+</p>
 </div>
 <div class="footer">
-<p>恒昇留學商務  版權所有</p>
+<p>恒昇留學商務 版權所有</p>
 </div>
 </body>
 </html>
